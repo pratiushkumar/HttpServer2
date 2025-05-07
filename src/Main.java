@@ -47,7 +47,7 @@ public class Main {
                         if (breakup.equals("/")) { //if the client comtains "/" money or not thrn only deliver him the piszza
                             responsecall = "HTTP/1.1 200 OK\r\nContent-Length: 0\r\n\r\n";
                         } else {
-                            responsecall = "HTTP/1.1 400 Bad Request\r\nContent-Length: 0\r\n\r\n";
+                            responsecall = "HTTP/1.1 400 NOT FOUND\r\nContent-Length: 0\r\n\r\n";
                         }
                     }
 
